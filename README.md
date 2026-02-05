@@ -38,7 +38,7 @@ const md = require('markdown-it')()
 | buttonStyle      | 'position: absolute; top: 7.5px; right: 6px; cursor: pointer; outline: none;' | The style of the button wrapper            |
 | buttonClass      | ''                                                                            | The class of the button wrapper            |
 | element          | ''                                                                            | Custom HTML element as button body         |
-| removeEndNewline | false                                                                         | Remove newline at the end if copied string |
+| removeEndNewline | false                                                                         | Remove newline at the end of copied string |
 | onSuccess        | undefined                                                                     | Function to call when copied successfully  |
 | onError          | undefined                                                                     | Function to call when error occurred       |
 
