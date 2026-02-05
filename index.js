@@ -28,8 +28,8 @@ function renderCode(origRule, options) {
 			.replaceAll('"', '&quot;')
 			.replaceAll("'", "&apos;");
 
-		if (options.removeEndNewline) {
-			content.replace(/(\r\n|\n|\r)+$/, '');
+		if (options.removeEndNewline === true) {
+			content = content.replace(/(\r\n|\n|\r)+$/, '');
 		}
 
 		const origRendered = origRule(...args);
